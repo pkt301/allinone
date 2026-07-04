@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Apps · ExMan, Rido &amp; Trip Saathi — Android Apps by Trishika</title>
+    <meta name="description" content="Discover ExMan (Expense Manager), Rido (Route-Based Ride Sharing), and Trip Saathi (Group Trip Expenses). Download on Google Play and explore each app." />
+    <meta name="theme-color" content="#1e6cd9" />
+    <link rel="icon" type="image/png" href="assets/exman/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+    <header class="nav">
+        <div class="container nav-inner">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">A</span>
+                <span class="brand-name">All<span class="accent">Apps</span></span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="exman.html">ExMan</a>
+                <a href="rido.html">Rido</a>
+                <a href="tripsaathi.html">Trip Saathi</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="hamburger" aria-label="Toggle menu" onclick="document.getElementById('navLinks').classList.toggle('open')">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div>
+                <span class="eyebrow"><span class="dot"></span> Premium Android Apps</span>
+                <h1>Three apps. One vision. <span class="grad">Smarter everyday life.</span></h1>
+                <p class="lead">
+                    Manage personal finances with AI, share rides on your daily route, and split trip
+                    expenses with friends — all built in India, free to download, and designed with care.
+                </p>
+                <div class="hero-cta">
+                    <a href="#apps" class="btn accent">Explore All Apps</a>
+                    <a href="#contact" class="btn ghost">Contact Support</a>
+                </div>
+                <div class="hero-apps">
+                    <a href="exman.html" class="hero-app-chip">
+                        <img src="assets/exman/logo.png" alt="ExMan" />
+                        <div><strong>ExMan</strong><span>Expense Manager</span></div>
+                    </a>
+                    <a href="rido.html" class="hero-app-chip">
+                        <img src="assets/rido/icon.png" alt="Rido" />
+                        <div><strong>Rido</strong><span>Ride Sharing</span></div>
+                    </a>
+                    <a href="tripsaathi.html" class="hero-app-chip">
+                        <img src="assets/tripsaathi/logo.png" alt="Trip Saathi" />
+                        <div><strong>Trip Saathi</strong><span>Group Expenses</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="preview-card">
+                    <img src="assets/exman/screen-home.png" alt="ExMan home screen" loading="lazy" />
+                    <div class="preview-label"><img src="assets/exman/logo.png" alt="" /> ExMan</div>
+                </div>
+                <div class="preview-card">
+                    <img src="assets/rido/rider-1.png" alt="Rido rider dashboard" loading="lazy" />
+                    <div class="preview-label"><img src="assets/rido/icon.png" alt="" /> Rido</div>
+                </div>
+                <div class="preview-card">
+                    <img src="assets/tripsaathi/splash-1.png" alt="Trip Saathi welcome" loading="lazy" />
+                    <div class="preview-label"><img src="assets/tripsaathi/logo.png" alt="" /> Trip Saathi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container stats-grid">
+            <div class="stat"><strong>3</strong><span>Premium Android apps</span></div>
+            <div class="stat"><strong>Free</strong><span>To download &amp; use</span></div>
+            <div class="stat"><strong>AI</strong><span>Hindi &amp; English support</span></div>
+            <div class="stat"><strong>UPI</strong><span>Payments &amp; settle-up</span></div>
+        </div>
+    </section>
+
+    <section class="apps-overview" id="apps">
+        <div class="container">
+            <h2 class="section-title">Our Android Apps</h2>
+            <p class="section-sub">Each app has its own page with features, screens, Play Store link, and full website. Pick the one you need — or use all three.</p>
+            <div class="app-cards">
+                <article class="app-card">
+                    <div class="app-card-header">
+                        <img src="assets/exman/logo.png" alt="ExMan logo" />
+                        <div><h3>ExMan</h3><p>Expense Manager</p></div>
+                    </div>
+                    <p class="tagline">Take control of your money with AI finance assistant, charts, PDF import, and UPI payments.</p>
+                    <ul class="highlights">
+                        <li>✓ AI chat in Hindi &amp; English</li>
+                        <li>✓ Pie charts &amp; calendar view</li>
+                        <li>✓ PDF import &amp; export</li>
+                        <li>✓ PhonePe · GPay · Paytm</li>
+                    </ul>
+                    <div class="app-card-actions">
+                        <a href="exman.html" class="btn accent sm">View App Page</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.expensemanager_exman.app" class="btn ghost sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+                    </div>
+                </article>
+
+                <article class="app-card">
+                    <div class="app-card-header">
+                        <img src="assets/rido/icon.png" alt="Rido logo" />
+                        <div><h3>Rido</h3><p>Route-Based Ride Sharing</p></div>
+                    </div>
+                    <p class="tagline">Share your route and split the fuel. Connect private commuters — not a taxi service.</p>
+                    <ul class="highlights">
+                        <li>✓ Live GPS trip tracking</li>
+                        <li>✓ OTP safety on every ride</li>
+                        <li>✓ Transparent fuel-share pricing</li>
+                        <li>✓ PDF trip receipts</li>
+                    </ul>
+                    <div class="app-card-actions">
+                        <a href="rido.html" class="btn yellow sm">View App Page</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.godrive.rideshare" class="btn ghost sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+                    </div>
+                </article>
+
+                <article class="app-card">
+                    <div class="app-card-header">
+                        <img src="assets/tripsaathi/logo.png" alt="Trip Saathi logo" />
+                        <div><h3>Trip Saathi</h3><p>Group Trip Expenses</p></div>
+                    </div>
+                    <p class="tagline">Travel together, split smarter. Track group expenses, auto-split bills, and settle up easily.</p>
+                    <ul class="highlights">
+                        <li>✓ Auto split bills (equal or custom)</li>
+                        <li>✓ Shared trip budgets</li>
+                        <li>✓ Trip photos &amp; memories</li>
+                        <li>✓ Zero ads · encrypted sync</li>
+                    </ul>
+                    <div class="app-card-actions">
+                        <a href="tripsaathi.html" class="btn sm">View App Page</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.tripsaathi.app" class="btn ghost sm" target="_blank" rel="noopener noreferrer">Play Store</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="apps-overview alt" id="links">
+        <div class="container">
+            <h2 class="section-title">All Links at a Glance</h2>
+            <p class="section-sub">Websites, app pages, Play Store, privacy policies, and support.</p>
+            <div class="table-wrap">
+                <table class="links-table">
+                    <thead>
+                        <tr>
+                            <th>App</th>
+                            <th>App Page</th>
+                            <th>Website</th>
+                            <th>Google Play</th>
+                            <th>Privacy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>ExMan</strong></td>
+                            <td><a href="exman.html">View page</a></td>
+                            <td><a href="https://exman.pktiwari110487.workers.dev/" target="_blank" rel="noopener noreferrer">Website</a></td>
+                            <td><a href="https://play.google.com/store/apps/details?id=com.expensemanager_exman.app" target="_blank" rel="noopener noreferrer">Play Store</a></td>
+                            <td><a href="https://exman.pktiwari110487.workers.dev/privacy.html" target="_blank" rel="noopener noreferrer">Privacy</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Rido</strong></td>
+                            <td><a href="rido.html">View page</a></td>
+                            <td><a href="https://ridesharing.pktiwari110487.workers.dev/" target="_blank" rel="noopener noreferrer">Website</a></td>
+                            <td><a href="https://play.google.com/store/apps/details?id=com.godrive.rideshare" target="_blank" rel="noopener noreferrer">Play Store</a></td>
+                            <td><a href="https://ridesharing.pktiwari110487.workers.dev/privacy.html" target="_blank" rel="noopener noreferrer">Privacy</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Trip Saathi</strong></td>
+                            <td><a href="tripsaathi.html">View page</a></td>
+                            <td><a href="https://tripsaathi.pktiwari110487.workers.dev/" target="_blank" rel="noopener noreferrer">Website</a></td>
+                            <td><a href="https://play.google.com/store/apps/details?id=com.tripsaathi.app" target="_blank" rel="noopener noreferrer">Play Store</a></td>
+                            <td><a href="https://tripsaathi.pktiwari110487.workers.dev/privacy-policy.html" target="_blank" rel="noopener noreferrer">Privacy</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="padding-top: 0;">
+        <div class="cta">
+            <h2>Ready to download?</h2>
+            <p>All three apps are free on Google Play. Pick the one you need — or install them all.</p>
+            <div class="cta-apps">
+                <a class="btn" href="exman.html">ExMan</a>
+                <a class="btn" href="rido.html">Rido</a>
+                <a class="btn" href="tripsaathi.html">Trip Saathi</a>
+                <a class="btn ghost" href="mailto:pktiwari110487@gmail.com">pktiwari110487@gmail.com</a>
+                <a class="btn ghost" href="tel:+919026317151">+91 9026317151</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="brand" style="margin-bottom: 12px;">
+                        <span class="brand-mark" style="width: 40px; height: 40px; font-size: 16px;">A</span>
+                        <span class="brand-name" style="color:#fff;">All<span style="color:var(--accent);">Apps</span></span>
+                    </div>
+                    <p style="margin: 0; font-size: 14.5px; color: #8896b3; max-width: 340px;">
+                        ExMan, Rido, and Trip Saathi — premium Android apps by Trishika Enterprises.
+                    </p>
+                </div>
+                <div>
+                    <h4>App Pages</h4>
+                    <ul>
+                        <li><a href="exman.html">ExMan</a></li>
+                        <li><a href="rido.html">Rido</a></li>
+                        <li><a href="tripsaathi.html">Trip Saathi</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Websites</h4>
+                    <ul>
+                        <li><a href="https://exman.pktiwari110487.workers.dev/" target="_blank" rel="noopener noreferrer">ExMan</a></li>
+                        <li><a href="https://ridesharing.pktiwari110487.workers.dev/" target="_blank" rel="noopener noreferrer">Rido</a></li>
+                        <li><a href="https://tripsaathi.pktiwari110487.workers.dev/" target="_blank" rel="noopener noreferrer">Trip Saathi</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:pktiwari110487@gmail.com">pktiwari110487@gmail.com</a></li>
+                        <li><a href="tel:+919026317151">+91 9026317151</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">&copy; <span id="year">2026</span> Trishika Enterprises. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
